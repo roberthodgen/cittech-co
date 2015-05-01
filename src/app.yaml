@@ -1,0 +1,26 @@
+application: cittech-co
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+
+handlers:
+
+# Home
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+
+
+# Directory index files;
+# simply rewrites a page like `/about` to `/about/index.html`;
+# trailing slash optional.
+- url: /([a-zA-Z0-9-_]+)/?
+  static_files: static/\1/index.html
+  upload: static/.*/index.html
+
+
+# Static files
+- url: /
+  static_dir: static
