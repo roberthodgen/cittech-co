@@ -29,6 +29,12 @@ a:hover, a:focus {
     color: #b75f34;
 }
 
+mark, .mark {
+    background-color: transparent;
+    font-weight: bold;
+    color: #ff5f11;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -127,6 +133,7 @@ a:hover, a:focus {
 
 .section-heading {
     margin-bottom: 30px;
+    color: #ff5f11;
 }
 
 .section-heading-spacer {
