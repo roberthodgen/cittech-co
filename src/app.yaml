@@ -7,6 +7,10 @@ threadsafe: true
 
 handlers:
 
+# API
+- url: /api/.*
+  script: contact.APP
+
 # Home
 - url: /
   static_files: static/index.html
