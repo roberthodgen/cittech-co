@@ -60,13 +60,27 @@ a:hover, a:focus {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 600px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-message > ul.list-inline li:last-child {
+    margin-left: 35px;
+}
+
+.intro-message > ul.list-inline li {
+    font-size: 24px;
+    margin: 0 15px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-message > ul.list-inline li > span.fa {
+    margin-right: 8px;
 }
 
 @media(max-width:767px) {
