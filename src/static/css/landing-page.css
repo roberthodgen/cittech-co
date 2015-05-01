@@ -21,6 +21,14 @@ h6 {
     font-weight: 700;
 }
 
+a {
+    color: #ff5f11;
+}
+
+a:hover, a:focus {
+    color: #b75f34;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -35,7 +43,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-city-bg2.jpg) no-repeat center center;
     background-size: cover;
 }
 
