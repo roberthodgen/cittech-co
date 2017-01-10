@@ -11,7 +11,7 @@ import json
 from google.appengine.api import mail
 
 
-SEND_TO_ADDRESS = 'cit@cittech.co'
+SEND_TO_ADDRESS = 'cit.tech@outlook.com'
 SEND_FROM_ADDRESS = 'contact@cittech-co.appspotmail.com'
 
 
